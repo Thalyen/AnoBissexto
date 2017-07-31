@@ -30,4 +30,10 @@ public class AnoBissextoTest {
     public void testClasseValida4() {
         assertFalse(teste.AnoBissexto(5));
     }
+    
+     @Test
+    public void testClasseValida5() {
+        assertFalse(teste.AnoBissexto(1500));
+    }
+    
 }

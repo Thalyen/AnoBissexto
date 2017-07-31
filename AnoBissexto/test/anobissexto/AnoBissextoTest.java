@@ -16,5 +16,9 @@ public class AnoBissextoTest {
         assertTrue(teste.AnoBissexto(4));
     }
 
+    @Test
+    public void testClasseValida2() {
+        assertTrue(teste.AnoBissexto(1600));
+    }
     
 }
